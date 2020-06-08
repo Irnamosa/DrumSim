@@ -19,7 +19,7 @@ for m in range(0,4):
         Mode(m,n,radius=1,c=1).sim(fpath = './Modes')
 ```
 ### The *n* parameter
-* Below we observe that as *n* increases, so too does the number of circular node, that is, circles where the drum displacement is stationary at all times.
+* Below we observe that as *n* increases, so too does the number of circular nodes, that is, circles where the drum displacement is stationary at all times.
 * In the (0,1) case, there exists only the one circular node at the fixed rim of the drum which explains why *n* must begin at 1: there is always the one circular node conferred by the boundary condition. This is analogous to the modes of a vibrating guitar string always having two nodes at both ends.
 * For (0,2), another circular node has been added close to half the radial lenght of the drum, resulting in outer and inner anti-oscillating regions. 
 * Finally, (0,4) shows four concentric nodes - as expected.
