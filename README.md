@@ -16,7 +16,7 @@ from drumsim import Mode, CircularDrum
 # Generate all modes up to (3,4)
 for m in range(0,4):
     for n in range(1,5):
-        Mode(m,n,r=1,c=1).sim(fpath = './Modes')
+        Mode(m,n,radius=1,c=1).sim(fpath = './Modes')
 ```
 ### The *n* parameter
 * Below we observe that as *n* increases, so too does the number of circular node, that is, circles where the drum displacement is stationary at all times.
