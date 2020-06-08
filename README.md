@@ -5,9 +5,6 @@ Simulates the surface of a perfectly elastic circular drum upon impingement by a
 
 ```python
 from drumsim import Mode, CircularDrum
-import numpy as np
-import matplotlib.pyplot as plt
-import pandas as pd
 ```
 
 # Drum Vibrations: Analysis
