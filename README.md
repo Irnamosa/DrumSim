@@ -109,7 +109,7 @@ drumcubic.simInitial(fname="-(r-0.5)^3", fpath="Final\General\Axisymmetric")
 ## General Solution: Arbitrary Pertubration
 
 * For the arbitrary perturbation case, we'll define a function *u_0* that simulates the striking of a drum at a localised point located at radial length *rpos* from the centre, and without loss of generality *theta=0* 
-* Let us model the drum vibrations for such localised striked at various lengths ranging [0, 1]
+* Let us model the drum vibrations for such a localised strike at various lengths ranging [0, 1]
 
 ```python
 rpos = [0,0.25,0.5,0.75,1]
